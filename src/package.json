@@ -1,0 +1,16 @@
+{
+  "name": "test-consumer",
+  "version": "1.0.0",
+  "description": "Exercises a queue",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon index.js",
+    "production": "node index.js"
+  },
+  "author": "Michael Kubarycz",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.4.0",
+    "q": "^1.4.1"
+  }
+}
